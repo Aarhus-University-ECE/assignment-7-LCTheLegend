@@ -25,5 +25,5 @@ double taylor_sine(double x, int n)
             result +=  (pow(x,power)/factorial(power));
         power += 2;  
     }
-    return -1.0;
+    return result;
 }
